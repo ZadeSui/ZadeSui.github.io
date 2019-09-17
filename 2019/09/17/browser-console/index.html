@@ -55,14 +55,21 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="ZadeSui&#39;s blog">
-<meta property="og:url" content="https://zadesui.github.io/archives/index.html">
+  <meta name="description" content="1console.log(&apos;\n&apos; + &apos; %c &apos;+(&quot;Welcome to ZadeSui&apos;s blog.&quot;)+&apos; %c &apos;+(&quot;https://zadesui.github.io&quot;)+&apos; &apos; + &apos;\n&apos;, &apos;color: #fadfa3; background: #030307; padding:5px 0;&apos;, &apos;background: #fadfa3; padding:5px 0;&apos;)">
+<meta name="keywords" content="js,javascript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何在浏览器控制台中显示带样式的字符">
+<meta property="og:url" content="https://zadesui.github.io/2019/09/17/browser-console/index.html">
 <meta property="og:site_name" content="ZadeSui&#39;s blog">
+<meta property="og:description" content="1console.log(&apos;\n&apos; + &apos; %c &apos;+(&quot;Welcome to ZadeSui&apos;s blog.&quot;)+&apos; %c &apos;+(&quot;https://zadesui.github.io&quot;)+&apos; &apos; + &apos;\n&apos;, &apos;color: #fadfa3; background: #030307; padding:5px 0;&apos;, &apos;background: #fadfa3; padding:5px 0;&apos;)">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://zadesui.github.io/2019/09/17/browser-console/console-snapshot.png">
+<meta property="og:updated_time" content="2019-09-17T06:06:51.236Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ZadeSui&#39;s blog">
-  <link rel="canonical" href="https://zadesui.github.io/archives/">
+<meta name="twitter:title" content="如何在浏览器控制台中显示带样式的字符">
+<meta name="twitter:description" content="1console.log(&apos;\n&apos; + &apos; %c &apos;+(&quot;Welcome to ZadeSui&apos;s blog.&quot;)+&apos; %c &apos;+(&quot;https://zadesui.github.io&quot;)+&apos; &apos; + &apos;\n&apos;, &apos;color: #fadfa3; background: #030307; padding:5px 0;&apos;, &apos;background: #fadfa3; padding:5px 0;&apos;)">
+<meta name="twitter:image" content="https://zadesui.github.io/2019/09/17/browser-console/console-snapshot.png">
+  <link rel="canonical" href="https://zadesui.github.io/2019/09/17/browser-console/">
 
 
 <script id="page-configurations">
@@ -70,13 +77,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
-    isArchive: true
+    isArchive: false
   };
 </script>
 
-  <title>Archive | ZadeSui's blog</title>
+  <title>如何在浏览器控制台中显示带样式的字符 | ZadeSui's blog</title>
   
 
 
@@ -168,18 +175,6 @@
 
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 </nav>
 </div>
     </header>
@@ -197,66 +192,95 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        
-        
-        
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="https://zadesui.github.io/2019/09/17/browser-console/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZadeSui">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ZadeSui's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">如何在浏览器控制台中显示带样式的字符
+
           
-        
-        <span class="collection-header">Um..! 1 post. Keep on posting.</span>
-      </div>
-      
+        </h1>
 
-      
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-  
-  
+              
+                
+              
 
-  
+              <time title="Created: 2019-09-17 14:02:22 / Modified: 14:06:51" itemprop="dateCreated datePublished" datetime="2019-09-17T14:02:22+08:00">2019-09-17</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+
+        </div>
+      </header>
+
     
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-  
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">'\n'</span> + <span class="string">' %c '</span>+(<span class="string">"Welcome to ZadeSui's blog."</span>)+<span class="string">' %c '</span>+(<span class="string">"https://zadesui.github.io"</span>)+<span class="string">' '</span> + <span class="string">'\n'</span>, <span class="string">'color: #fadfa3; background: #030307; padding:5px 0;'</span>, <span class="string">'background: #fadfa3; padding:5px 0;'</span>);</span><br></pre></td></tr></table></figure>
 
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/09/17/browser-console/" itemprop="url">
-            <span itemprop="name">如何在浏览器控制台中显示带样式的字符</span>
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-17T14:02:22+08:00"
-              content="2019-09-17">
-          09-17
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="./console-snapshot.png" alt="控制台输出"></p>
 
     </div>
+
+    
+    
+    
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/js/" rel="tag"># js</a>
+            
+              <a href="/tags/javascript/" rel="tag"># javascript</a>
+            
+          </div>
+        
+
+        
+
+      </footer>
+    
   </div>
   
   
   
+  </article>
 
-  
-
+  </div>
 
 
           </div>
@@ -275,6 +299,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -287,6 +316,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#结果"><span class="nav-number">1.</span> <span class="nav-text">结果</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
